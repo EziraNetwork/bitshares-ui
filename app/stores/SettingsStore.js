@@ -49,11 +49,11 @@ class SettingsStore {
             locale: "en",
             apiServer: settingsAPIs.DEFAULT_WS_NODE,
             faucet_address: settingsAPIs.DEFAULT_FAUCET,
-            unit: CORE_ASSET,
+            unit: "USD",
             showSettles: false,
             showAssetPercent: false,
             walletLockTimeout: 60 * 10,
-            themes: "darkTheme",
+            themes: "lightTheme",
             passwordLogin: true,
             browser_notifications: {
                 allow: true,
@@ -191,7 +191,7 @@ class SettingsStore {
                     "OPEN.DASH",
                     "OPEN.BTC",
                     "OPEN.SBD",
-                    "OPEN.EOS",
+                    "OPEN.EOS"
                 ],
                 markets_39f5e2ed: [
                     // TESTNET
@@ -204,10 +204,10 @@ class SettingsStore {
                 markets_4018d784: [
                     // BTS MAIN NET
                     "USD",
-                    "OPEN.BTC",
-                    "CNY",
                     "BTS",
-                    "BTC"
+                    "OPEN.ETH",
+                    "OPEN.BTC",
+                    "OPEN.STEEM"
                 ],
                 markets_39f5e2ed: [
                     // TESTNET
